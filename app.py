@@ -19,7 +19,7 @@ def f2(x: int) -> int:
 
 
 def f3(x: int) -> int:
-    return math.cos(x)
+    return 50 * math.cos(x / 20)
 
 
 pygame.init()
