@@ -33,8 +33,6 @@ while True:
             pygame.quit()
             sys.exit()
 
-    screen.fill((0, 0, 0))
-
     # Seleccionar la función a dibujar
     player.move(f1)
     player.check(screen)
